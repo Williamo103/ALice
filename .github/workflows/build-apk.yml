@@ -22,7 +22,7 @@ jobs:
 
       - name: Extract Alice source
         run: |
-          unzip -o Alice_v0.1_android_source.zip -d extracted
+          unzip -o Alice_v0.1_android_source_fixed.zip -d extracted
           cp -r extracted/AliceAndroid/* .
           cp -r extracted/AliceAndroid/.[!.]* . 2>/dev/null || true
 
